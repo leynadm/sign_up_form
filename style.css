@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Press+Start+2P&display=swap');
+
+body{
+    font-family: 'Jockey One', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.page-title{
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+h3{
+    width: 30rem;
+    color: yellow;
+    font-size: 1.5rem;    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.background-dragon > img{
+    height: 50rem;
+    width: auto;
+}
+
+.motivating-quote{
+    font-size: 1.5rem;
+}
+
+form{
+    padding: 8px;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.right-side-screen{
+    padding-left: 100px;
+}
+
+.left-side-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side-form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+input{
+    border-color:orangered;
+    border-radius: 5px;
+    height: 1.5rem;
+    width: 20rem;
+}
+
+label{
+    color: yellowgreen;
+}
+
+button{
+    margin-top: 16px;
+    background-color: orange;
+    border-radius: 5px;
+    height: 2rem;
+    width: 10rem;
+    border-color:red;
+}
