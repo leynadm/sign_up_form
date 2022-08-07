@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Jockey+One&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Gloria+Hallelujah&family=Jockey+One&family=Press+Start+2P&family=Special+Elite&display=swap');
+
 body{
-    font-family: 'Aclonica', sans-serif;
-    background-color:black;
+    font-family: 'Special Elite', cursive;
+        background-color:black;
     color: white;
 }
 
 .page-title{
-    padding: 8px;
+    margin-top: 2rem;
     border-radius: 25px;
+    margin-bottom: 3rem;
 }
-h3{
-    width: 30rem;
-    color: yellow;
+h3{ 
+    width: 40rem;
+    color:antiquewhite;
     font-size: 1.5rem;    
 }
 .container{
@@ -28,13 +30,16 @@ h3{
     font-size: 1.5rem;
 }
 
-form{
-    
+form{    
     padding: 8px;
     display: flex;
     flex-direction: column;
     background-color: 	#1B1212;
-    box-shadow: 2px 4px 2px #28282B;
+    border-radius: 5px;
+}
+
+.left-side-screen{
+    position: relative;
 }
 
 .right-side-screen{
@@ -57,28 +62,32 @@ form{
 }
 
 h6{
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 input{
-    border-radius: 5px;
-    height: 1.5rem;
+    font-size: large;
+    border-radius: 3px;
+    height: 2rem;
     width: 20rem;
 }
 
-.labels{
-    color: orangered;
+label{
+    margin-top: 1rem;
 }
-button{
+
+button{    
     font-family: inherit;
-    margin-top: 16px;
-    background-color: blueviolet;
+    margin-top: 1.5rem;
+    background-color:darkred;
     color: white;
     border-radius: 5px;
     height: 2rem;
     width: 10rem;
     border: none;
+    font-size: 1rem;
+    text-align: center;
 }
 
 h5{
@@ -100,7 +109,7 @@ output{
 
 #password-message{
     margin-top: 8px;
-    font-size: small;
+    font-size: medium;
     color: yellow;
 }
 /* CSS FOR FIELDS */
