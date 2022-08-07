@@ -2,10 +2,8 @@
 body{
     font-family: 'Aclonica', sans-serif;
     background-color:black;
-    color:white;
-
+    color: white;
 }
-
 
 .page-title{
     padding: 8px;
@@ -31,16 +29,20 @@ h3{
 }
 
 form{
+    
     padding: 8px;
     display: flex;
+    flex-direction: column;
     background-color: 	#1B1212;
     box-shadow: 2px 4px 2px #28282B;
-    
-
 }
 
 .right-side-screen{
     padding-left: 100px;
+}
+
+.form-upper{
+    display: flex;
 }
 
 .left-side-form{
@@ -54,32 +56,57 @@ form{
     padding-left: 30px;
 }
 
+h6{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 input{
-    border-color:orangered;
     border-radius: 5px;
     height: 1.5rem;
     width: 20rem;
 }
 
-label{
-    color: yellowgreen;
+.labels{
+    color: orangered;
 }
-
 button{
+    font-family: inherit;
     margin-top: 16px;
-    background-color: orange;
+    background-color: blueviolet;
+    color: white;
     border-radius: 5px;
     height: 2rem;
     width: 10rem;
-    border-color:red;
-}
-
-.second-right-side-section{
-
+    border: none;
 }
 
 h5{
-    margin: 0.5rem;
+   margin: 0.3rem;
 }
 
-/* CSS FOR FIELDS*/
+output{
+
+    width:21rem;
+    word-wrap: break-word;
+    font-size: small;
+}
+
+.password-criteria p{
+    font-size: 0.75rem;
+    appearance: none;
+    margin: 0.25rem;
+}
+
+#password-message{
+    margin-top: 8px;
+    font-size: small;
+    color: yellow;
+}
+/* CSS FOR FIELDS */
+
+input{
+    appearance: none;
+    margin: 0;
+    font-family: inherit;    
+}
